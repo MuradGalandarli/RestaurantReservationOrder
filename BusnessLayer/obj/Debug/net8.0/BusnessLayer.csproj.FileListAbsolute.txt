@@ -1,0 +1,17 @@
+D:\GitHub test\RestaurantReservationOrder\BusnessLayer\bin\Debug\net8.0\BusnessLayer.deps.json
+D:\GitHub test\RestaurantReservationOrder\BusnessLayer\bin\Debug\net8.0\BusnessLayer.dll
+D:\GitHub test\RestaurantReservationOrder\BusnessLayer\bin\Debug\net8.0\BusnessLayer.pdb
+D:\GitHub test\RestaurantReservationOrder\BusnessLayer\obj\Debug\net8.0\BusnessLayer.GeneratedMSBuildEditorConfig.editorconfig
+D:\GitHub test\RestaurantReservationOrder\BusnessLayer\obj\Debug\net8.0\BusnessLayer.AssemblyInfoInputs.cache
+D:\GitHub test\RestaurantReservationOrder\BusnessLayer\obj\Debug\net8.0\BusnessLayer.AssemblyInfo.cs
+D:\GitHub test\RestaurantReservationOrder\BusnessLayer\obj\Debug\net8.0\BusnessLayer.csproj.CoreCompileInputs.cache
+D:\GitHub test\RestaurantReservationOrder\BusnessLayer\obj\Debug\net8.0\BusnessLayer.dll
+D:\GitHub test\RestaurantReservationOrder\BusnessLayer\obj\Debug\net8.0\refint\BusnessLayer.dll
+D:\GitHub test\RestaurantReservationOrder\BusnessLayer\obj\Debug\net8.0\BusnessLayer.pdb
+D:\GitHub test\RestaurantReservationOrder\BusnessLayer\obj\Debug\net8.0\ref\BusnessLayer.dll
+D:\GitHub test\RestaurantReservationOrder\BusnessLayer\bin\Debug\net8.0\DataAccessLayer.dll
+D:\GitHub test\RestaurantReservationOrder\BusnessLayer\bin\Debug\net8.0\EntityLayer.dll
+D:\GitHub test\RestaurantReservationOrder\BusnessLayer\bin\Debug\net8.0\DataAccessLayer.pdb
+D:\GitHub test\RestaurantReservationOrder\BusnessLayer\bin\Debug\net8.0\EntityLayer.pdb
+D:\GitHub test\RestaurantReservationOrder\BusnessLayer\obj\Debug\net8.0\BusnessLayer.csproj.AssemblyReference.cache
+D:\GitHub test\RestaurantReservationOrder\BusnessLayer\obj\Debug\net8.0\BusnessL.14DD4A42.Up2Date

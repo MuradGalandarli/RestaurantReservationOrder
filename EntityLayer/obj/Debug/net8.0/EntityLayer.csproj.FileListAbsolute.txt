@@ -1,0 +1,11 @@
+D:\GitHub test\RestaurantReservationOrder\EntityLayer\bin\Debug\net8.0\EntityLayer.deps.json
+D:\GitHub test\RestaurantReservationOrder\EntityLayer\bin\Debug\net8.0\EntityLayer.dll
+D:\GitHub test\RestaurantReservationOrder\EntityLayer\bin\Debug\net8.0\EntityLayer.pdb
+D:\GitHub test\RestaurantReservationOrder\EntityLayer\obj\Debug\net8.0\EntityLayer.GeneratedMSBuildEditorConfig.editorconfig
+D:\GitHub test\RestaurantReservationOrder\EntityLayer\obj\Debug\net8.0\EntityLayer.AssemblyInfoInputs.cache
+D:\GitHub test\RestaurantReservationOrder\EntityLayer\obj\Debug\net8.0\EntityLayer.AssemblyInfo.cs
+D:\GitHub test\RestaurantReservationOrder\EntityLayer\obj\Debug\net8.0\EntityLayer.csproj.CoreCompileInputs.cache
+D:\GitHub test\RestaurantReservationOrder\EntityLayer\obj\Debug\net8.0\EntityLayer.dll
+D:\GitHub test\RestaurantReservationOrder\EntityLayer\obj\Debug\net8.0\refint\EntityLayer.dll
+D:\GitHub test\RestaurantReservationOrder\EntityLayer\obj\Debug\net8.0\EntityLayer.pdb
+D:\GitHub test\RestaurantReservationOrder\EntityLayer\obj\Debug\net8.0\ref\EntityLayer.dll
