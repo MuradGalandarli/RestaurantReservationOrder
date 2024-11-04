@@ -7,7 +7,8 @@ using System.Threading.Tasks;
 
 namespace DataAccessLayer.Abstriction
 {
-    public interface IEFRetorant:IGeneric<Restaurant>
+    public interface IEFUser:IGeneric<User>
     {
+
     }
 }

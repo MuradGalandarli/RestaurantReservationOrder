@@ -9,3 +9,4 @@ D:\GitHub test\RestaurantReservationOrder\EntityLayer\obj\Debug\net8.0\EntityLay
 D:\GitHub test\RestaurantReservationOrder\EntityLayer\obj\Debug\net8.0\refint\EntityLayer.dll
 D:\GitHub test\RestaurantReservationOrder\EntityLayer\obj\Debug\net8.0\EntityLayer.pdb
 D:\GitHub test\RestaurantReservationOrder\EntityLayer\obj\Debug\net8.0\ref\EntityLayer.dll
+D:\GitHub test\RestaurantReservationOrder\EntityLayer\obj\Debug\net8.0\EntityLayer.sourcelink.json

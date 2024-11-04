@@ -15,3 +15,4 @@ D:\GitHub test\RestaurantReservationOrder\BusnessLayer\bin\Debug\net8.0\DataAcce
 D:\GitHub test\RestaurantReservationOrder\BusnessLayer\bin\Debug\net8.0\EntityLayer.pdb
 D:\GitHub test\RestaurantReservationOrder\BusnessLayer\obj\Debug\net8.0\BusnessLayer.csproj.AssemblyReference.cache
 D:\GitHub test\RestaurantReservationOrder\BusnessLayer\obj\Debug\net8.0\BusnessL.14DD4A42.Up2Date
+D:\GitHub test\RestaurantReservationOrder\BusnessLayer\obj\Debug\net8.0\BusnessLayer.sourcelink.json

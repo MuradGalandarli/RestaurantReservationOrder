@@ -1,4 +1,3 @@
-
 using BusnessLayer.Abstraction;
 using BusnessLayer.Concret;
 using DataAccessLayer;
@@ -25,7 +24,13 @@ namespace ApiLayer
 
             builder.Services.AddScoped<ApplicationContext>();
             builder.Services.AddScoped<IServiceRestorant,RestorantManager>();
-            builder.Services.AddScoped<IEFRetorant,RepositoryRestornat>();
+            builder.Services.AddScoped<IEFRestaurant,RepositoryRestornat>();
+           // builder.Services.AddScoped<IUserService, UserService>();
+            builder.Services.AddScoped<IEFUser, RepositoryUser>();
+            builder.Services.AddScoped<IServiceUser, UserManager>();
+
+            builder.Services.AddScoped<IServiceRestaurantOwner, RestaurantOwnerManager>();
+            builder.Services.AddScoped<IEFRestaurantOwner, RepositoryRestaurantOwner>();
 
 
             builder.Services.AddIdentityApiEndpoints<IdentityUser>().

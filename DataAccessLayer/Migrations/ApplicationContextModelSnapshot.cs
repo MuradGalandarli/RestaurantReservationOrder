@@ -164,14 +164,9 @@ namespace DataAccessLayer.Migrations
                     b.Property<bool>("Status")
                         .HasColumnType("bit");
 
-                    b.Property<int>("UserId")
-                        .HasColumnType("int");
-
                     b.HasKey("RestaurantId");
 
                     b.HasIndex("RestaurantOwnerId");
-
-                    b.HasIndex("UserId");
 
                     b.ToTable("Restorants");
                 });
@@ -518,15 +513,7 @@ namespace DataAccessLayer.Migrations
                         .WithMany("Restaurants")
                         .HasForeignKey("RestaurantOwnerId");
 
-                    b.HasOne("EntityLayer.Entites.User", "User")
-                        .WithMany("Restaurants")
-                        .HasForeignKey("UserId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
                     b.Navigation("RestaurantOwner");
-
-                    b.Navigation("User");
                 });
 
             modelBuilder.Entity("EntityLayer.Entites.Table", b =>
@@ -630,8 +617,6 @@ namespace DataAccessLayer.Migrations
                     b.Navigation("Order");
 
                     b.Navigation("Reservation");
-
-                    b.Navigation("Restaurants");
                 });
 #pragma warning restore 612, 618
         }

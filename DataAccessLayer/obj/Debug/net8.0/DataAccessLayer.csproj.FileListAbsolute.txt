@@ -15,3 +15,4 @@ D:\GitHub test\RestaurantReservationOrder\DataAccessLayer\bin\Debug\net8.0\Entit
 D:\GitHub test\RestaurantReservationOrder\DataAccessLayer\obj\Debug\net8.0\DataAcce.E67BD773.Up2Date
 D:\GitHub test\RestaurantReservationOrder\DataAccessLayer\bin\Debug\net8.0\DataAccessLayer.runtimeconfig.json
 D:\GitHub test\RestaurantReservationOrder\DataAccessLayer\obj\Debug\net8.0\DataAccessLayer.genruntimeconfig.cache
+D:\GitHub test\RestaurantReservationOrder\DataAccessLayer\obj\Debug\net8.0\DataAccessLayer.sourcelink.json

@@ -21,8 +21,8 @@ namespace EntityLayer.Entites
         public List<Reservation>? Reservation { get; set; }
         public List<Comment>? Comment { get; set; }
         public List<Order>? Order { get; set; }
-        public int UserId { get; set; }
-        public User? User { get; set; }
+     /*   public int UserId { get; set; }
+        public User? User { get; set; }*/
 
     }
 }

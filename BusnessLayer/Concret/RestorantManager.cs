@@ -11,13 +11,13 @@ namespace BusnessLayer.Concret
 {
     public class RestorantManager : IServiceRestorant
     {
-        private readonly IEFRetorant _eFRetorant;
-        public RestorantManager(IEFRetorant eFRetorant) 
+        private readonly IEFRestaurant _eFRetorant;
+        public RestorantManager(IEFRestaurant eFRetorant) 
         {
           _eFRetorant = eFRetorant;
         }
 
-        public async Task<Restaurant> Addd(Restaurant t)
+        public async Task<Restaurant> Add(Restaurant t)
         {
            var result = await _eFRetorant.Add(t);
             return result;
@@ -35,7 +35,7 @@ namespace BusnessLayer.Concret
             return result;  
         }
 
-        public async Task<Restaurant> GetId(int id)
+        public async Task<Restaurant> GetById(int id)
         {
           var result = await _eFRetorant.GetId(id);
             return result;

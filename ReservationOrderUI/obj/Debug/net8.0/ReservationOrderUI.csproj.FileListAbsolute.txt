@@ -28,3 +28,4 @@ D:\GitHub test\RestaurantReservationOrder\ReservationOrderUI\obj\Debug\net8.0\re
 D:\GitHub test\RestaurantReservationOrder\ReservationOrderUI\obj\Debug\net8.0\ReservationOrderUI.pdb
 D:\GitHub test\RestaurantReservationOrder\ReservationOrderUI\obj\Debug\net8.0\ReservationOrderUI.genruntimeconfig.cache
 D:\GitHub test\RestaurantReservationOrder\ReservationOrderUI\obj\Debug\net8.0\ref\ReservationOrderUI.dll
+D:\GitHub test\RestaurantReservationOrder\ReservationOrderUI\obj\Debug\net8.0\ReservationOrderUI.sourcelink.json

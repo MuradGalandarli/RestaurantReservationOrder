@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace DataAccessLayer.Concret
 {
-    public class RepositoryRestornat:Generic<Restaurant>,IEFRetorant
+    public class RepositoryRestornat:Generic<Restaurant>,IEFRestaurant
     {
         private readonly ApplicationContext _context;
         public RepositoryRestornat(ApplicationContext context):base(context)

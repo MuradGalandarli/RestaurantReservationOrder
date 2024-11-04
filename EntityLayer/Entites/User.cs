@@ -18,7 +18,8 @@ namespace EntityLayer.Entites
         public List<Comment>? Comments { get; set; }   
         public List<Order>? Order { get; set; }   
         public List<Reservation>? Reservation { get; set; }
-        public List<Restaurant>? Restaurants { get; set; }
+
+       // public List<Restaurant>? Restaurants { get; set; }
         
     }
 }

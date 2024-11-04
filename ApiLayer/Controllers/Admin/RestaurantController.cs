@@ -17,16 +17,40 @@ namespace ApiLayer.Controllers.Admin
             this._serviceRestorant = _serviceRestorant;
         }
 
-        [HttpPost("Add")]
+        [HttpPost("AddRestaurant")]
         public async Task<IActionResult> Add([FromBody] Restaurant t)
         {
-            var result = await _serviceRestorant.Addd(t);
-            if(result != null)
-            {
-                return Ok(result);
-            }
-            return NotFound();
+            var result = await _serviceRestorant.Add(t);
+            return (result != null) ? Ok(result) : BadRequest();
         }
+
+        [HttpPut("UpdateRestaurant")]
+        public async Task<IActionResult> Update(Restaurant restaurant)
+        {
+            var result = await _serviceRestorant.Update(restaurant);
+            return (result != null) ? Ok(result) : BadRequest();
+        }
+
+        [HttpGet("GetByIdRestaurant{id}")]
+        public async Task<IActionResult> GetById(int id)
+        {
+            var data = await _serviceRestorant.GetById(id);
+            return (data != null) ? Ok(data) : BadRequest();
+        }
+        [HttpDelete("DeleteRestaurant{id}")]
+        public async Task<IActionResult> Delete(int id)
+        {
+            var result = await _serviceRestorant.Delete(id);
+            return (result != null) ? Ok(result) : BadRequest();
+        }
+        [HttpGet("GetAllRestaurand")]
+        public async Task<IActionResult> GetAll()
+        {
+            var result = await _serviceRestorant.GetAll();
+            return (result != null) ? Ok(result) : BadRequest();
+        }
+
+
 
 
 

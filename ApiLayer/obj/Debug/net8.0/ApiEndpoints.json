@@ -2,7 +2,7 @@
   {
     "ContainingType": "ApiLayer.Controllers.Admin.RestaurantController",
     "Method": "Add",
-    "RelativePath": "api/Restaurant/Add",
+    "RelativePath": "api/Restaurant/AddRestaurant",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
@@ -10,6 +10,212 @@
       {
         "Name": "t",
         "Type": "EntityLayer.Entites.Restaurant",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApiLayer.Controllers.Admin.RestaurantController",
+    "Method": "Delete",
+    "RelativePath": "api/Restaurant/DeleteRestaurant{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApiLayer.Controllers.Admin.RestaurantController",
+    "Method": "GetAll",
+    "RelativePath": "api/Restaurant/GetAllRestaurand",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApiLayer.Controllers.Admin.RestaurantController",
+    "Method": "GetById",
+    "RelativePath": "api/Restaurant/GetByIdRestaurant{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApiLayer.Controllers.Admin.RestaurantController",
+    "Method": "Update",
+    "RelativePath": "api/Restaurant/UpdateRestaurant",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "restaurant",
+        "Type": "EntityLayer.Entites.Restaurant",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApiLayer.Controllers.Admin.RestaurantOwnerController",
+    "Method": "GetById",
+    "RelativePath": "api/RestaurantOwner/RestaurantGetById{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApiLayer.Controllers.Admin.RestaurantOwnerController",
+    "Method": "Add",
+    "RelativePath": "api/RestaurantOwner/RestaurantOwnerAdd",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "restaurantOwner",
+        "Type": "EntityLayer.Entites.RestaurantOwner",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApiLayer.Controllers.Admin.RestaurantOwnerController",
+    "Method": "GetAll",
+    "RelativePath": "api/RestaurantOwner/RestaurantOwnerGetAll",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApiLayer.Controllers.Admin.RestaurantOwnerController",
+    "Method": "Delete",
+    "RelativePath": "api/RestaurantOwner/RestaurantOwuner{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApiLayer.Controllers.Admin.RestaurantOwnerController",
+    "Method": "Update",
+    "RelativePath": "api/RestaurantOwner/RestaurantOwunerUpdate",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "restaurantOwner",
+        "Type": "EntityLayer.Entites.RestaurantOwner",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApiLayer.Controllers.Admin.UserController",
+    "Method": "AddUser",
+    "RelativePath": "api/User/AddUser",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "user",
+        "Type": "EntityLayer.Entites.User",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApiLayer.Controllers.Admin.UserController",
+    "Method": "Delete",
+    "RelativePath": "api/User/DeleteUser",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApiLayer.Controllers.Admin.UserController",
+    "Method": "GetAll",
+    "RelativePath": "api/User/GetAllUser",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApiLayer.Controllers.Admin.UserController",
+    "Method": "GetByIdUser",
+    "RelativePath": "api/User/GetById",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApiLayer.Controllers.Admin.UserController",
+    "Method": "UpdateUser",
+    "RelativePath": "api/User/UpdateUser",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "user",
+        "Type": "EntityLayer.Entites.User",
         "IsRequired": true
       }
     ],
